@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  color: wheat;
+}
+input {
+  font-size: large;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 250px;
+  height: 30px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.gallery-list {
+  margin: 15px;
+  list-style: none;
+  width: 400px;
+}
+.stats {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  font-size: large;
+  background-color: blueviolet;
+  margin-top: 50px;
+  border-radius: 5px;
+}
