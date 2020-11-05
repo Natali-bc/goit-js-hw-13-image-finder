@@ -15,6 +15,7 @@ input {
   flex-wrap: wrap;
   margin: -15px;
   margin-bottom: 50px;
+  justify-content: center;
 }
 .gallery-list {
   margin: 15px;
