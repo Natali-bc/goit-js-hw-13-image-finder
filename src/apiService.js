@@ -21,7 +21,7 @@ const imageSearch = function () {
     });
 
   setTimeout(() => {
-    page > 1
+    window.pageYOffset > 100
       ? window.scrollTo({
           top: window.pageYOffset + window.innerHeight - 70,
           behavior: 'smooth',
